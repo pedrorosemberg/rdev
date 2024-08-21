@@ -4,12 +4,6 @@ import { faHtml5, faCss3Alt, faJs, faPython } from '@fortawesome/free-brands-svg
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons';
-import sqlIcon from '../assets/icons/sql.svg'; // Imagem SVG para SQL
-import nosqlIcon from '../assets/icons/nosql.svg'; // Imagem SVG para NoSQL
-import gitIcon from '../assets/icons/git.svg'; // Imagem SVG para Git
-import githubIcon from '../assets/icons/github.svg'; // Imagem SVG para GitHub
-import jestIcon from '../assets/icons/jest.svg'; // Imagem SVG para Jest
-import seleniumIcon from '../assets/icons/selenium.svg'; // Imagem SVG para Selenium
 import { DatabaseIcon, CodeIcon, SparklesIcon, BeakerIcon, LightningBoltIcon, AdjustmentsIcon, TagIcon, FolderAddIcon, FolderDownloadIcon, FolderOpenIcon, FolderIcon, FolderRemoveIcon, ClipboardIcon, ClipboardCheckIcon, PaperClipIcon, DesktopComputerIcon, SwitchVerticalIcon } from '@heroicons/react/solid';
 
 
