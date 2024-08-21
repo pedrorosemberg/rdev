@@ -11,6 +11,7 @@ import Clientes from './components/Clientes';
 import Parceiros from './components/Parceiros';
 import Contato from './components/Contato';
 import Footer from './components/Footer';
+import Tecnologias from './components/Tecnologias';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
+      <Tecnologias />
       <Sobre />
       <Formacao />
       <Experiencias />
