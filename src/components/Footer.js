@@ -6,7 +6,7 @@ import rosembergLogo from '../assets/footer/rosemberg.dev.png';
 const Footer = () => {
   return (
     <footer className="py-5 bg-gray-900 flex justify-between items-center">
-      <p className="text-white ml-5">&copy; 2024 PEDRO ROSEMBERG. Todos os direitos reservados.</p>
+      <p className="text-white ml-5">&copy;2024 PEDRO ROSEMBERG.    <i>Versão 1.2</i></p>
       <div className="flex items-center mr-5">
         <a href="https://www.codever.com.br" target="_blank" rel="noopener noreferrer">
           <img src={codeverLogo} alt="Codever" className="h-8 mx-2" />
