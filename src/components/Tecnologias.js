@@ -4,7 +4,7 @@ import { faHtml5, faCss3Alt, faJs, faPython } from '@fortawesome/free-brands-svg
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons';
-import { DatabaseIcon, CodeIcon, SparklesIcon, BeakerIcon, LightningBoltIcon, AdjustmentsIcon, TagIcon, FolderAddIcon, FolderDownloadIcon, FolderOpenIcon, FolderIcon, FolderRemoveIcon, ClipboardIcon, ClipboardCheckIcon, PaperClipIcon, DesktopComputerIcon, SwitchVerticalIcon } from '@heroicons/react/solid';
+import { DatabaseIcon, CodeIcon, SparklesIcon, BeakerIcon, LightningBoltIcon, AdjustmentsIcon, TagIcon, FolderAddIcon, FolderDownloadIcon, FolderOpenIcon, FolderIcon, FolderRemoveIcon, ClipboardIcon, ClipboardCheckIcon, PaperClipIcon, DesktopComputerIcon, SwitchVerticalIcon, DocumentSearchIcon } from '@heroicons/react/solid';
 
 
 const Tecnologias = () => {
@@ -12,8 +12,8 @@ const Tecnologias = () => {
 
   return (
     <section id="tecnologias" className="py-10 px-5 bg-gray-800">
-      <h2 className="text-3xl text-teal-400 text-center mb-6">Stacks</h2>
-      <h3 className="text-2xl text-teal-400 text-center">Linguagens e Tecnologias utilizadas</h3>
+      <h2 className="text-3xl text-teal-400 text-center mb-6">Stacks e Habilidades</h2>
+      <h3 className="text-2xl text-teal-400 text-center">Linguagens e Tecnologias</h3>
       <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
           <FontAwesomeIcon icon={faHtml5} className="w-8 h-8 mb-2 text-teal-400" />
@@ -96,6 +96,14 @@ const Tecnologias = () => {
         <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
           <FolderIcon className="w-8 h-8 mb-2 text-teal-400" />
           <span className="text-lg text-white">GitLabs</span>
+        </div>
+        <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
+          <DocumentSearchIcon className="w-8 h-8 mb-2 text-teal-400" />
+          <span className="text-lg text-white">WIX (CMS)</span>
+        </div>
+        <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
+          <DocumentSearchIcon className="w-8 h-8 mb-2 text-teal-400" />
+          <span className="text-lg text-white">WordPress (CMS)</span>
         </div>
       </div>
     </section>
