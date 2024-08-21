@@ -2,7 +2,6 @@ import React from 'react';
 import anhangueraLogo from '../assets/formacao/anhanguera.png';
 import cefetLogo from '../assets/formacao/cefetmg.png';
 import famefLogo from '../assets/formacao/famef.png';
-import faculdadeMetropolitanaLogo from '../assets/formacao/faculdadeMetropolitana.png';
 import uniaselviLogo from '../assets/formacao/uniaselvi.png';
 
 const Formacao = () => {
@@ -17,7 +16,7 @@ const Formacao = () => {
             <h3 className="text-xl text-teal-400">Anhanguera</h3>
           </div>
           <p className="text-white text-left">Engenharia de Software</p>
-          <p className="text-white text-left">(julho de 2024)</p>
+          <p className="text-white text-left">(ago de 2024)</p>
         </div>
 
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
@@ -27,7 +26,7 @@ const Formacao = () => {
             <h3 className="text-xl text-teal-400">CEFET-MG</h3>
           </div>
           <p className="text-white text-left">Aluno Especial do Programa de Mestrado em Administração</p>
-          <p className="text-white text-left">(julho de 2024)</p>
+          <p className="text-white text-left">(jul de 2024)</p>
         </div>
 
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
@@ -37,7 +36,7 @@ const Formacao = () => {
             <h3 className="text-xl text-teal-400">FAMEF</h3>
           </div>
           <p className="text-white text-left">Pós-graduação em Psicanálise Clínica</p>
-          <p className="text-white text-left">(junho de 2024)</p>
+          <p className="text-white text-left">(jun de 2024)</p>
         </div>
 
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
@@ -47,7 +46,7 @@ const Formacao = () => {
             <h3 className="text-xl text-teal-400">UNIASSELVI</h3>
           </div>
           <p className="text-white text-left">MBA em Gestão Comercial e Inteligência de Mercado</p>
-          <p className="text-white text-left">(julho de 2023 - novembro de 2023)</p>
+          <p className="text-white text-left">(jul de 2023 - nov de 2023)</p>
         </div>
 
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
@@ -57,7 +56,7 @@ const Formacao = () => {
             <h3 className="text-xl text-teal-400">UNIASSELVI</h3>
           </div>
           <p className="text-white text-left">Pós-graduação em Marketing, Criatividade e Inovação</p>
-          <p className="text-white text-left">(janeiro de 2023 - junho de 2023)</p>
+          <p className="text-white text-left">(jan de 2023 - jun de 2023)</p>
         </div>
 
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
@@ -67,7 +66,7 @@ const Formacao = () => {
             <h3 className="text-xl text-teal-400">UNIASSELVI</h3>
           </div>
           <p className="text-white text-left">Graduação - CST Marketing</p>
-          <p className="text-white text-left">(julho de 2020 - dezembro de 2022)</p>
+          <p className="text-white text-left">(jul de 2020 - dez de 2022)</p>
         </div>
       </div>
     </section>
