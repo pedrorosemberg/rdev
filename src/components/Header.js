@@ -9,8 +9,8 @@ const Header = () => {
       <nav>
         <ul className="flex list-none">
           <li className="ml-5"><a className="text-white hover:border-b-2 border-teal-400" href="#sobre">Sobre</a></li>
-          <li className="ml-5"><a className="text-white hover:border-b-2 border-teal-400" href="#curriculo">Currículo</a></li>
-          <li className="ml-5"><a className="text-white hover:border-b-2 border-teal-400" href="#projetos">Projetos</a></li>
+          <li className="ml-5"><a className="text-white hover:border-b-2 border-teal-400" href="#formacao">Currículo</a></li>
+          <li className="ml-5"><a className="text-white hover:border-b-2 border-teal-400" href="#projetos-pessoais">Projetos</a></li>
           <li className="ml-5"><a className="text-white hover:border-b-2 border-teal-400" href="#clientes">Clientes</a></li>
           <li className="ml-5"><a className="text-white hover:border-b-2 border-teal-400" href="#parceiros">Parceiros</a></li>
           <li className="ml-5"><a className="text-white hover:border-b-2 border-teal-400" href="#contato">Contato</a></li>
