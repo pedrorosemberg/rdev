@@ -7,27 +7,6 @@ import { faTailwindcss } from '@fortawesome/free-brands-svg-icons';
 
 const Tecnologias = () => {
   const [technologies, setTechnologies] = useState([]);
-
-  useEffect(() => {
-    const fetchTechnologies = async () => {
-      const response = await fetch('https://api.github.com/users/pedrorosemberg/repos');
-      const data = await response.json();
-
-      const techCount = {};
-
-      data.forEach(repo => {
-        if (repo.language) {
-          techCount[repo.language] = (techCount[repo.language] || 0) + 1;
-        }
-      });
-
-      const sortedTech = Object.entries(techCount).sort((a, b) => b[1] - a[1]);
-      setTechnologies(sortedTech);
-    };
-
-    fetchTechnologies();
-  }, []);
-
   return (
     <section id="tecnologias" className="py-10 px-5 bg-gray-800">
       <h2 className="text-3xl text-teal-400">Tecnologias Utilizadas</h2>
