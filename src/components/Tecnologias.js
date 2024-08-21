@@ -22,12 +22,16 @@ const Tecnologias = () => {
           <span className="text-lg text-white">CSS3</span>
         </div>
         <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
+          <FontAwesomeIcon icon={faPython} className="w-8 h-8 mb-2" style={{ color: '#61dafb' }} />
+          <span className="text-lg text-white">Python</span>
+        </div>
+        <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
           <FontAwesomeIcon icon={faJs} className="w-8 h-8 mb-2" style={{ color: '#61dafb' }} />
           <span className="text-lg text-white">JavaScript</span>
         </div>
         <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
-          <FontAwesomeIcon icon={faPython} className="w-8 h-8 mb-2" style={{ color: '#61dafb' }} />
-          <span className="text-lg text-white">Python</span>
+          <FontAwesomeIcon icon={faNodeJs} className="w-8 h-8 mb-2" style={{ color: '#61dafb' }} />
+          <span className="text-lg text-white">Node.js</span>
         </div>
       </div>
       <h3 className="text-2xl text-teal-400 mt-5 text-center">Bibliotecas e Frameworks</h3>
@@ -35,10 +39,6 @@ const Tecnologias = () => {
         <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
           <FontAwesomeIcon icon={faReact} className="w-8 h-8 mb-2" style={{ color: '#61dafb' }} />
           <span className="text-lg text-white">React.js</span>
-        </div>
-        <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
-          <FontAwesomeIcon icon={faNodeJs} className="w-8 h-8 mb-2" style={{ color: '#61dafb' }} />
-          <span className="text-lg text-white">Node.js</span>
         </div>
         <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
           <FontAwesomeIcon icon={faCss3Alt} className="w-8 h-8 mb-2" style={{ color: '#61dafb' }} />
