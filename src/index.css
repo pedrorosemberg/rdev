@@ -11,6 +11,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Responsividade global */
+@media (max-width: 768px) {
+  h1, h2, h3, p {
+    padding: 0 10px;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;}
+    monospace;
+}
