@@ -59,7 +59,7 @@ const Tecnologias = () => {
           <span className="text-lg text-white">Jest</span>
         </div>
         <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
-          <FontAwesomeIcon icon={faBootstrap} className="w-8 h-8 mb-2" style={{ color: '#61dafb' }} />
+          <FontAwesomeIcon icon={faBootstrap} className="w-8 h-8 mb-2 text-teal-400" />
           <span className="text-lg text-white">Bootstrap</span>
         </div>
         <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
