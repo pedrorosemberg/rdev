@@ -26,7 +26,7 @@ const Clientes = () => {
           <img src={cedin} alt="CEDIN" className="h-8 mx-auto" />
         </div>
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
-          <span className="bg-orange-200 text-orange-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Marketing</span>
+          <span className="bg-orange-200 text-orange-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Conteúdo</span>
           <img src={in8} alt="IN8" className="h-8 mx-auto" />
         </div>
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
