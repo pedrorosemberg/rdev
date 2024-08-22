@@ -20,8 +20,8 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      <Tecnologias />
       <Sobre />
+      <Tecnologias />
       <Formacao />
       <Experiencias />
       <Cursos />
