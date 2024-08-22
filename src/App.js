@@ -12,6 +12,7 @@ import Parceiros from './components/Parceiros';
 import Contato from './components/Contato';
 import Footer from './components/Footer';
 import Tecnologias from './components/Tecnologias';
+import Menu from './components/Menu';
 import './App.css';
 
 function App() {
