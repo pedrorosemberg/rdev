@@ -12,7 +12,7 @@ const Tecnologias = () => {
 
   return (
     <section id="tecnologias" className="py-10 px-5 bg-gray-800">
-      <h2 className="text-3xl text-teal-400 text-center mb-6">Stacks e Habilidades</h2>
+      <h2 className="text-3xl text-teal-400 text-center mb-6">Stacks e Skills</h2>
       <h3 className="text-2xl text-teal-400 text-center">Linguagens e Tecnologias</h3>
       <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
         <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
