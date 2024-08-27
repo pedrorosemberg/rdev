@@ -66,7 +66,6 @@ const Tecnologias = () => {
           <AdjustmentsIcon className="w-8 h-8 mb-2 text-teal-400" />
           <span className="text-lg text-white">TailwindCSS</span>
         </div>
-        <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
         <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
           <FontAwesomeIcon icon={faReact} className="w-8 h-8 mb-2 text-teal-400" />
           <span className="text-lg text-white">Electron</span>
