@@ -22,7 +22,7 @@ const Header = () => {
             isOpen ? 'flex' : 'hidden'
           } flex-col md:flex md:flex-row list-none md:space-x-5`}
         >
-          <li><a className="text-white hover:border-b-2 border-teal-400" href="#sobre">Sobre</a></li>
+          <li><a className="text-white hover:border-b-2 border-teal-400" href="#sobre">Portfolio</a></li>
           <li><a className="text-white hover:border-b-2 border-teal-400" href="#formacao">Currículo</a></li>
           <li><a className="text-white hover:border-b-2 border-teal-400" href="#projetos-pessoais">Projetos</a></li>
           <li><a className="text-white hover:border-b-2 border-teal-400" href="#clientes">Clientes</a></li>
