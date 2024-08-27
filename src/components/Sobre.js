@@ -102,13 +102,13 @@ const Sobre = () => {
             <img src={projeto.image} alt={projeto.title} className="w-full h-40 object-cover rounded-md" />
             <h3 className="text-xl text-teal-400 mt-3">{projeto.title}</h3>
             <p className="text-white">{projeto.description}</p>
-            <div className="mt-3">
-              <a href={projeto.link} target="_blank" rel="noopener noreferrer" className="text-teal-400 mr-2">
-                <FaExternalLinkAlt />
-              </a>
-              <a href={projeto.github} target="_blank" rel="noopener noreferrer" className="text-teal-400">
-                <FaGithub />
-              </a>
+            <div className="mt-3 flex justify-center items-center">
+                    <a href={projeto.link} target="_blank" rel="noopener noreferrer" className="text-teal-400 mr-4 hover:text-teal-300 transition-colors">
+                    <FaExternalLinkAlt className="w-5 h-5" />
+                    </a>
+                    <a href={projeto.github} target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:text-teal-300 transition-colors">
+                    <FaGithub className="w-5 h-5" />
+                    </a>
             </div>
             <div className="mt-2">
               {projeto.technologies.map((tech, techIndex) => (
