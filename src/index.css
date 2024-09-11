@@ -9,6 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth; /* Animação de scroll suave */
+  user-select: none; /* Bloquear a seleção de texto */
 }
 
 /* Responsividade global */
