@@ -3,6 +3,8 @@ import anhangueraLogo from '../assets/formacao/anhanguera.png';
 import cefetLogo from '../assets/formacao/cefetmg.png';
 import famefLogo from '../assets/formacao/famef.png';
 import uniaselviLogo from '../assets/formacao/uniaselvi.png';
+import prozLogo from '../assets/formacao/proz.png';
+import unicaLogo from '../assets/formacao/unica.png';
 
 const Formacao = () => {
   return (
@@ -13,7 +15,7 @@ const Formacao = () => {
       <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
           <span className="bg-orange-200 text-orange-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Em andamento</span>
           <div className="flex items-center">
-            <img src={cefetLogo} alt="CEFET" className="h-8 mr-3" />
+            <img src={prozLogo} alt="PROZ Educação" className="h-8 mr-3" />
             <h3 className="text-xl text-teal-400">PROZ Educação</h3>
           </div>
           <p className="text-white text-left">Técnico em Desenvolvimento de Sistemas</p>
@@ -23,7 +25,7 @@ const Formacao = () => {
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
           <span className="bg-orange-200 text-orange-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Em andamento</span>
           <div className="flex items-center">
-            <img src={anhangueraLogo} alt="Anhanguera" className="h-8 mr-3" />
+            <img src={unicaLogo} alt="Faculdade Única" className="h-8 mr-3" />
             <h3 className="text-xl text-teal-400">Faculdade Única</h3>
           </div>
           <p className="text-white text-left">Ciência da Computação</p>
