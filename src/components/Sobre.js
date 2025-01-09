@@ -9,6 +9,8 @@ import jarvisBotImg from '../assets/projetos/jarvisbot.png';
 import siriusWebScrapperImg from '../assets/projetos/sirius.png';
 import auroraAIImg from '../assets/projetos/aurora.png';
 import marstreeImg from '../assets/projetos/marstree.png';
+import creditixImg from '../assets/projetos/creditix-logo.png';
+import econxImg from '../assets/projetos/econx-1.png';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projetos = [
@@ -16,7 +18,7 @@ const projetos = [
     title: 'MarketGuru',
     image: marketGuruImg,
     description: 'Agência datadriven de Marketing Digital de Performance e Resultados.',
-    link: 'https://www.marketguru.com.br',
+    link: 'https://mkt.codever.com.br',
     github: 'https://github.com/pedrorosemberg',
     technologies: ['React.js', 'Node.js', 'Html', 'TailwindCSS', 'Vercel (Deploy)'],
     tag: ['Em produção'],
@@ -86,6 +88,39 @@ const projetos = [
     github: 'https://github.com/pedrorosemberg/marstree',
     technologies: ['CSS3', 'HTML5', 'JavaScript'],
     tag: ['Concluído'],
+    status:['publico'],
+    tipo: ['#colaborativo'],
+  },
+  {
+    title: 'Codever-MarketGuru Propostas',
+    image: marketGuruImg,
+    description: 'Website de envio de propostas personalizadas.',
+    link: 'https://mkt.codever.com.br',
+    github: 'https://github.com/pedrorosemberg/Codever-Marketing-Proposal',
+    technologies: ['JavaScript', 'Html', 'TailwindCSS', 'Vercel (Deploy)'],
+    tag: ['Em produção'],
+    status:['publico'],
+    tipo: ['#colaborativo'],
+  },
+  {
+    title: 'Creditix API Teste',
+    image: creditixImg,
+    description: 'API Servless para requisição de informações de crédito com retorno via link.',
+    link: 'https://creditix.codever.com.br/acesso',
+    github: 'https://github.com/pedrorosemberg/version1.0.0',
+    technologies: ['JavaScript', 'Html', 'Babel', 'Gulp', 'Vercel (Deploy)'],
+    tag: ['Em produção'],
+    status:['publico'],
+    tipo: ['#colaborativo'],
+  },
+  {
+    title: 'ECONX Certificações API Valid',
+    image: econxImg,
+    description: 'API Servless de validação de certificados de projetos.',
+    link: 'https://growth.econx.com.br/validation/certificados',
+    github: 'https://github.com/pedrorosemberg/project-root',
+    technologies: ['JavaScript', 'Vercel (Deploy)'],
+    tag: ['Em produção'],
     status:['publico'],
     tipo: ['#colaborativo'],
   }
