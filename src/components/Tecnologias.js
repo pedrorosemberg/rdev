@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJs, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faJs, faPython, faJava } from '@fortawesome/free-brands-svg-icons';
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons';
-import { DatabaseIcon, BeakerIcon, LightningBoltIcon, AdjustmentsIcon, TagIcon, DesktopComputerIcon, FolderOpenIcon, SwitchVerticalIcon, DocumentSearchIcon } from '@heroicons/react/solid';
-
+import { DatabaseIcon, BeakerIcon, LightningBoltIcon, AdjustmentsIcon, TagIcon, DesktopComputerIcon, FolderOpenIcon, SwitchVerticalIcon, DocumentSearchIcon, CodeIcon } from '@heroicons/react/solid';
+import { DiRuby } from 'react-icons/di';
 
 const Tecnologias = () => {
   const [technologies, setTechnologies] = useState([]);
@@ -43,6 +43,14 @@ const Tecnologias = () => {
           <FolderOpenIcon className="w-8 h-8 mb-2 text-teal-400" />
           <span className="text-lg text-white">Git</span>
         </div>
+        <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
+          <FontAwesomeIcon icon={faJava} className="w-8 h-8 mb-2 text-teal-400" />
+          <span className="text-lg text-white">Java</span>
+        </div>
+        <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
+        <DiRuby className="w-8 h-8 mb-2 text-teal-400" />
+        <span className="text-lg text-white">Ruby</span>
+      </div>
       </div>
       <h3 className="text-2xl text-teal-400 mt-5 text-center">Bibliotecas e Frameworks</h3>
       <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
@@ -96,6 +104,10 @@ const Tecnologias = () => {
         <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
           <DocumentSearchIcon className="w-8 h-8 mb-2 text-teal-400" />
           <span className="text-lg text-white">WordPress (CMS)</span>
+        </div>
+        <div className="flex flex-col items-center bg-gray-700 p-4 rounded-lg">
+          <SwitchVerticalIcon className="w-8 h-8 mb-2 text-teal-400" />
+          <span className="text-lg text-white">Netlify</span>
         </div>
       </div>
     </section>
