@@ -24,7 +24,7 @@ function App() {
       <Tecnologias />
       <Formacao />
       <Experiencias />
-      <Cursos />
+      {/* <Cursos /> */}
       <ProjetosPessoais />
       <ProjetosProfissionais />
       <Clientes />
