@@ -8,7 +8,7 @@ import pensi from '../assets/clientes/pensi.png';
 import curamente from '../assets/clientes/curamente.png';
 import econx from '../assets/clientes/econx.png';
 import codever from '../assets/clientes/codever.png';
-import creditix from '../assets/clientes/codever.png';
+import creditix from '../assets/clientes/creditix.png';
 
 const Clientes = () => {
   return (
@@ -38,7 +38,7 @@ const Clientes = () => {
         </div>
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
           <span className="bg-orange-200 text-orange-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Marketing</span>
-          <img src={pensi} alt="Pensi" className="h-8 mx-auto" />
+          <img src={pensi} alt="Pensi" className="h-10 mx-auto" />
         </div>
       </div>
 
@@ -46,7 +46,7 @@ const Clientes = () => {
       <div className="mt-5 flex flex-wrap justify-center">
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
           <span className="bg-green-200 text-green-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Desenvolvedor</span>
-          <img src={curamente} alt="Curamente" className="h-8 mx-auto mt-4" />
+          <img src={curamente} alt="Curamente" className="h-6 mx-auto mt-4" />
         </div>
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
           <span className="bg-green-200 text-green-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Desenvolvedor</span>
@@ -54,15 +54,15 @@ const Clientes = () => {
         </div>
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
           <span className="bg-green-200 text-green-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Desenvolvedor</span>
-          <img src={econx} alt="Econx" className="h-10 mx-auto mt-3" />
+          <img src={econx} alt="Econx" className="h-6 mx-auto mt-3" />
         </div>
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
           <span className="bg-green-200 text-green-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Desenvolvedor</span>
-          <img src={codever} alt="Codever" className="h-10 mx-auto mt-3" />
+          <img src={codever} alt="Codever" className="h-5 mx-auto mt-3" />
         </div>
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
           <span className="bg-green-200 text-green-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Desenvolvedor</span>
-          <img src={creditix} alt="Creditix" className="h-10 mx-auto mt-3" />
+          <img src={creditix} alt="Creditix" className="h-7 mx-auto mt-3" />
         </div>
       </div>
     </section>
