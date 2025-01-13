@@ -1,0 +1,79 @@
+import React from 'react';
+import anhangueraLogo from '../assets/formacao/anhanguera.png';
+import cefetLogo from '../assets/formacao/cefetmg.png';
+import famefLogo from '../assets/formacao/famef.png';
+import uniaselviLogo from '../assets/formacao/uniaselvi.png';
+import prozLogo from '../assets/formacao/proz.png';
+import unicaLogo from '../assets/formacao/unica.png';
+
+const Formacao = () => {
+  return (
+    <section id="formacao" className="py-10 px-5 bg-gray-800">
+      <h2 className="text-3xl text-teal-400">Formação Acadêmica</h2>
+      <div className="mt-5 flex flex-wrap justify-center">
+
+      <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
+          <span className="bg-orange-200 text-orange-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Em andamento</span>
+          <div className="flex items-center">
+            <img src={prozLogo} alt="PROZ Educação" className="h-8 mr-3" />
+            <h3 className="text-xl text-teal-400">PROZ Educação</h3>
+          </div>
+          <p className="text-white text-left">Técnico em Desenvolvimento de Sistemas</p>
+          <p className="text-white text-left">(fev de 2025)</p>
+        </div>
+
+        <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
+          <span className="bg-orange-200 text-orange-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Em andamento</span>
+          <div className="flex items-center">
+            <img src={unicaLogo} alt="Faculdade Única" className="h-8 mr-3" />
+            <h3 className="text-xl text-teal-400">Faculdade Única</h3>
+          </div>
+          <p className="text-white text-left">Ciência da Computação</p>
+          <p className="text-white text-left">(nov de 2024)</p>
+        </div>
+
+        <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
+          <span className="bg-green-200 text-green-800  py-1 px-2 rounded-full text-xs absolute top-2 right-2">Concluído</span>
+          <div className="flex items-center">
+            <img src={famefLogo} alt="FAMEF" className="h-8 mr-3" />
+            <h3 className="text-xl text-teal-400">FAMEF</h3>
+          </div>
+          <p className="text-white text-left">Pós-graduação em Psicanálise Clínica</p>
+          <p className="text-white text-left">(jun de 2024 - jan de 2025)</p>
+        </div>
+
+        <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
+          <span className="bg-green-200 text-green-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Concluído</span>
+          <div className="flex items-center">
+            <img src={uniaselviLogo} alt="UNIASSELVI" className="h-8 mr-3" />
+            <h3 className="text-xl text-teal-400">UNIASSELVI</h3>
+          </div>
+          <p className="text-white text-left">MBA em Gestão Comercial e Inteligência de Mercado</p>
+          <p className="text-white text-left">(jul de 2023 - nov de 2023)</p>
+        </div>
+
+        <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
+          <span className="bg-green-200 text-green-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Concluído</span>
+          <div className="flex items-center">
+            <img src={uniaselviLogo} alt="UNIASSELVI" className="h-8 mr-3" />
+            <h3 className="text-xl text-teal-400">UNIASSELVI</h3>
+          </div>
+          <p className="text-white text-left">Pós-graduação em Marketing, Criatividade e Inovação</p>
+          <p className="text-white text-left">(jan de 2023 - jun de 2023)</p>
+        </div>
+
+        <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
+          <span className="bg-green-200 text-green-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Concluído</span>
+          <div className="flex items-center">
+            <img src={uniaselviLogo} alt="UNIASSELVI" className="h-8 mr-3" />
+            <h3 className="text-xl text-teal-400">UNIASSELVI</h3>
+          </div>
+          <p className="text-white text-left">Graduação - CST Marketing</p>
+          <p className="text-white text-left">(jul de 2020 - dez de 2022)</p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Formacao;
