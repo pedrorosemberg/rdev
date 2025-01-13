@@ -9,6 +9,7 @@ import curamente from '../assets/clientes/curamente.png';
 import econx from '../assets/clientes/econx.png';
 import codever from '../assets/clientes/codever.png';
 import creditix from '../assets/clientes/creditix.png';
+import seekpay from '../assets/clientes/seekpay.png';
 
 const Clientes = () => {
   return (
@@ -63,6 +64,10 @@ const Clientes = () => {
         <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
           <span className="bg-green-200 text-green-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Desenvolvedor</span>
           <img src={creditix} alt="Creditix" className="h-7 mx-auto mt-3" />
+        </div>
+        <div className="bg-gray-700 p-4 mb-4 rounded w-full max-w-xs mx-2 relative">
+          <span className="bg-green-200 text-green-800 py-1 px-2 rounded-full text-xs absolute top-2 right-2">Desenvolvedor</span>
+          <img src={seekpay} alt="Seekpay" className="h-7 mx-auto mt-3" />
         </div>
       </div>
     </section>
