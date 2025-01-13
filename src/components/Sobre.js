@@ -11,6 +11,8 @@ import auroraAIImg from '../assets/projetos/aurora.png';
 import marstreeImg from '../assets/projetos/marstree.png';
 import creditixImg from '../assets/projetos/creditix-logo.png';
 import econxImg from '../assets/projetos/econx-1.png';
+import prFatImg from '../assets/projetos/prsd-faturas.png';
+import prConImg from '../assets/projetos/prsd-contratos.png';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projetos = [
@@ -123,7 +125,29 @@ const projetos = [
     tag: ['Em produção'],
     status:['publico'],
     tipo: ['#colaborativo'],
-  }
+  },
+  {
+    title: 'PRSD Gerador de Contratos',
+    image: prConImg,
+    description: 'Gerador de Contratos personalizados da PRSD.',
+    link: 'https://contratos.pedrorosemberg.com',
+    github: 'https://github.com/pedrorosemberg/Gerador-de-Contratos-MarketGuru',
+    technologies: ['HTML','CSS','JavaScript','GitHub','Vercel (Deploy)'],
+    tag: ['Em produção'],
+    status:['publico'],
+    tipo: ['#colaborativo'],
+  },
+  {
+    title: 'PRSD Gerador de Faturas',
+    image: prFatImg,
+    description: 'Gerador de Faturas personalizados da PRSD.',
+    link: 'https://faturas.pedrorosemberg.com',
+    github: 'https://github.com/pedrorosemberg/InoiceMaker',
+    technologies: ['HTML','CSS','JavaScript','GitHub','Vercel (Deploy)'],
+    tag: ['Em produção'],
+    status:['publico'],
+    tipo: ['#colaborativo'],
+  },
 ];
 
 const Sobre = () => {
