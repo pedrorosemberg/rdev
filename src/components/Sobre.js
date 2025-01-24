@@ -64,7 +64,7 @@ const projetos = [
     title: 'MyLinkTree',
     image: marstreeImg,
     description: 'Minha árvore de links personalizada.',
-    link: 'https://www.links.pedrorosemberg.com',
+    link: 'https://linktree.pedrorosemberg.com',
     github: 'https://github.com/pedrorosemberg/marstree',
     technologies: ['CSS3', 'HTML5', 'JavaScript'],
     tag: ['Concluído'],
